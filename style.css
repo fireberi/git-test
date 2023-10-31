@@ -1,0 +1,61 @@
+html {
+	background-color: rgb(225, 225, 225);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body {
+	align-items: center;
+	display: flex;
+	line-height: 1.75;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-family: Georgia;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#page {
+	background-color: rgb(245, 245, 245);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 25px 50px 75px;
+	width: 800px;
+}
+.content {
+	width: 600px;
+}
+canvas {
+	background-color: rgb(255, 255, 255);
+}
+p {
+	font-size: 16px;
+}
+code {
+	font-size: 16px;
+}
+.alert {
+	font-size: 18px;
+	color: red;
+}
+button {
+	background-color: whitesmoke;
+	border-color: dimgrey;
+	border-style: solid;
+	border-radius: 8px;
+	font-family: monospace;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+button:hover {
+	background-color: lightgrey;
+}
+
+button:active {
+	background-color: floralwhite;
+}
